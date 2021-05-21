@@ -5,7 +5,8 @@
   "main": "src/app.js",
   "type": "module",
   "scripts": {
-    "start" : "nodemon backend/server"
+    "start" : "node backend/server",
+    "server" : "nodemon backend/server"
   },
   "author": "Vedat Baysal",
   "license": "ISC",
