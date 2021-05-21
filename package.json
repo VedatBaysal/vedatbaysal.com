@@ -1,0 +1,24 @@
+{
+  "name": "vedatbaysal.com",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "server": "npm start --prefix backend",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server \" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VedatBaysal/vedatbaysal.com.git"
+  },
+  "author": "Vedat Baysal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VedatBaysal/vedatbaysal.com/issues"
+  },
+  "homepage": "https://github.com/VedatBaysal/vedatbaysal.com#readme",
+  "devDependencies": {
+    "concurrently": "^6.1.0"
+  }
+}
